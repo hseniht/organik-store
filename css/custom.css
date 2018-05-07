@@ -73,3 +73,16 @@
     background-image: none;
   }
 }
+
+/*==== MINI BANNER ====*/
+
+@media (max-width: 575.98px) {
+
+  .container.mini-banner {
+    padding: 0;
+  }
+ }
+
+ .color-theme {
+   background-color: #51ca6d;
+ }
