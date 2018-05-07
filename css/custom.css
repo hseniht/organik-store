@@ -1,0 +1,27 @@
+/*===================================/
+        CUSTOM CSS
+/===================================*/
+
+.centerBackground {
+  background-image: url(https://www.organicfacts.net/wp-content/uploads/2013/05/Vegetables4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+  .navbar-brand.logo-center {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+
+}
