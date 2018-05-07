@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
-    <title>Organik Store1</title>
+    <title>Organik Store</title>
 
   </head>
   <body>
@@ -20,7 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand logo-center" href="#">
-        <img src="/images/logo.png" width="150" alt="">
+        <img src="/images/logo.png" width="150" alt="logo">
       </a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-right ml-auto">
@@ -38,27 +38,25 @@
     </nav>
   </div>
 
-    <!-- HERO / JUMBOTRON-->
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <!-- IMAGE/CAROUSEL-->
+    <div class="mb-5" style="position:relative;">
+      <img src="images/slide_bg.jpg" class="img-fluid" alt="bg_banner"/>
+      <a class="btn btn-primary btn-lg button-overlay-bg" href="#" role="button">Shop Now</a>
     </div>
+
 
     <!-- CONTENT 1-->
     <div class="container">
         <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-6">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          <img src="images/oranges.png" class="img-fluid" alt="bg_banner">
         </div>
         <div class="col-md-6">
-          <div class="col-md-12 text-center" style="position: relative;left: -50%;">
-          <h2>CENTER</h2>
-        </div>
+          <div class="col-md-12 heading-unique-center" style="position: relative;left: -50%;">
+            <h2>WELCOME</h2>
+          </div>
+          <h2>ORGANIK STORE</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
         </div>
@@ -72,27 +70,46 @@
     <!--CONTENT 2  -->
       <div class="container">
         <div class="text-center">
+          <h1 class="text-hide" style="background-image: url('/assets/brand/bootstrap-solid.svg'); width: 50px; height: 50px;">Bootstrap</h1>
           <img src="http://via.placeholder.com/350x150" class="img-fluid" alt="Responsive image">
         </div>
+        <div class="centerBackground2">
+          <!--1st Row -->
+          <div class="row">
+            <div class="col-lg-4 pb-5">
+              <h2>Heading 1</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus. </p>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 pb-5 pull-right">
+              <h2>Heading 2</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus. </p>
+            </div>
+          </div>
+          <!--2nd Row-->
+          <div class="row">
+            <div class="col-lg-4 pb-5">
+              <h2>Heading 3</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus. </p>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 pb-5 pull-right">
+              <h2>Heading 4</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus. </p>
+            </div>
+          </div>
 
-        <div class="row centerBackground">
-          <div class="col-md-6">
-            <h2>Heading 1</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
-          <div class="col-md-6 text-right">
-            <h2>Heading 2</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
-          <div class="col-md-6">
-            <h2>Heading 3</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
-          <div class="col-md-6">
-            <h2>Heading 4</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
         </div>
+      </div>
+
+          <hr />
+
+      <div class="container">
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Well done!</h4>
+          <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        </div>
+
       </div>
 
 
