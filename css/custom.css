@@ -86,3 +86,15 @@
  .color-theme {
    background-color: #51ca6d;
  }
+
+ .mini-banner-border-right {
+    border-right: 0.5px solid #c3e6cb;
+ }
+
+ /*FONTS */
+
+ .font-minibanner-sub-heading {
+    font-weight: bold;
+    font-size: smaller;
+    color: #c3e6cb;
+ }
