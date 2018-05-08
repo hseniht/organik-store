@@ -98,3 +98,10 @@
     font-size: smaller;
     color: #c3e6cb;
  }
+
+
+/*FOOTER*/
+.footer-bottom-copyright {
+  background-color:#262a2d;
+  color:grey;
+}
