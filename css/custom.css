@@ -93,10 +93,27 @@
 
  /*FONTS */
 
+ .font-theme {
+   color: #51ca6d;
+ }
+
  .font-minibanner-sub-heading {
     font-weight: bold;
     font-size: smaller;
     color: #c3e6cb;
+ }
+
+ .no-decoration {
+   text-decoration: none;
+ }
+
+ .font-theme.no-decoration:hover{
+    text-decoration: none;
+    color: #28a745;
+ }
+
+ a .font-theme:hover {
+   color: #28a745;
  }
 
 /*=====PRODUCTS SECTION=====*/
@@ -130,6 +147,25 @@
 .fancy-line span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+.previous-price {
+  color:lightgrey;
+}
+
+.hot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 2%;
+    top: 12%;
+    padding: 11px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    line-height: 25px;
+    background-color: #ff6060;
 }
 
 /*====FOOTER====*/
