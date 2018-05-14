@@ -133,6 +133,11 @@
 }
 
 /*====FOOTER====*/
+
+.nav.social-links a:first-child {
+  padding-left: 0;
+}
+
 .footer-bottom-copyright {
   background-color:#262a2d;
   color:grey;
