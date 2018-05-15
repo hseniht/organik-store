@@ -128,13 +128,20 @@
    font-size: 40px;
  }
 
+
 /*=====PRODUCTS SECTION=====*/
 
 .nav-custom .nav-link {
   color: #6c757d;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+.nav-custom .nav-link:hover {
+  color: #51ca6d;
 }
 .nav-custom .nav-link.active {
-  color: #28a745;
+  color: #51ca6d;
 }
 
 .fancy-line {
@@ -149,7 +156,7 @@
 .fancy-line span:after {
   content: "";
   position: absolute;
-  border: 0.5px solid red;
+  border: 0.5px solid lightgrey;
   width: 10px;
 }
 .fancy-line span:before {
@@ -159,6 +166,11 @@
 .fancy-line span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+.nav-custom a:first-child .fancy-line span::before,
+.nav-custom a:last-child .fancy-line span::after {
+  border: none;
 }
 
 .previous-price {
@@ -219,6 +231,15 @@
 .nav.social-links a:first-child {
   padding-left: 0;
 }
+
+.nav.social-links a {
+  transition: color 0.3s ease;
+}
+.nav.social-links a:hover {
+  color: #dee2e6 !important;
+}
+
+
 
 .footer-bottom-copyright {
   background-color:#262a2d;
