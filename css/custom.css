@@ -93,7 +93,7 @@
 
  /*FONTS */
 
- .font-theme {
+ .font-theme-color {
    color: #51ca6d;
  }
 
@@ -107,13 +107,25 @@
    text-decoration: none;
  }
 
- .font-theme.no-decoration:hover{
+ .font-theme-color.no-decoration:hover{
     text-decoration: none;
     color: #28a745;
  }
 
- a .font-theme:hover {
+ a .font-theme-color:hover {
    color: #28a745;
+ }
+
+ .font-theme-family {
+    font-family: 'Great Vibes', cursive;
+    color: #51ca6d;
+ }
+ .font-theme-family.lg {
+   font-size: 50px;
+ }
+
+ .font-theme-family.md {
+   font-size: 40px;
  }
 
 /*=====PRODUCTS SECTION=====*/
@@ -153,7 +165,7 @@
   color:lightgrey;
 }
 
-.hot {
+.notify-hot {
     position: absolute;
     transform: translate(-50%, -50%);
     right: 2%;
@@ -169,7 +181,7 @@
     color: #fff;
     z-index: 10;
 }
-.sale {
+.notify-sale {
     position: absolute;
     transform: translate(-50%, -50%);
     right: 2%;
@@ -185,7 +197,7 @@
     color: #fff;
     z-index: 9;
 }
-.out {
+.notify-out {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
