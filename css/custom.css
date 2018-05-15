@@ -226,6 +226,44 @@
     z-index: 10;
 }
 
+
+/*---overlays --*/
+
+.container-image-thumbs {
+  position: relative;
+}
+
+.overlay-image-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .1s ease;
+  border-radius: 0;
+}
+
+.overlay-image-product-menu {
+  position: absolute;
+  bottom: 0;
+
+  background: #51ca6d; /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .2s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-image-thumbs:hover .overlay-image-product-menu {
+  opacity: 1;
+}
+.container-image-thumbs:hover .overlay-image-frame {
+
+  outline: solid 3px #51ca6d;
+}
+
 /*====FOOTER====*/
 
 .nav.social-links a:first-child {
